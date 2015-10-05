@@ -1,9 +1,9 @@
 {
 "update_url": "https://clients2.google.com/service/update2/crx",
-  "name": "Facebook Notifs Anywhere By Med Hossam",
+  "name": "Facebook Notifs Anywhere By CreaGen",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Facebook Notifications Anywhere extension for google chrome browser and any browser based on chromium project create By Med Hossam (c) 2015",
+  "description": "Facebook Notifications Anywhere extension for google chrome browser and any browser based on chromium project create By CreaGen (c) 2015",
   "icons": {
     "16": "icon.png",
     "48": "icon48.png",
