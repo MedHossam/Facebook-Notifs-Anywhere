@@ -1,0 +1,28 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+  "name": "Facebook Notifs Anywhere By Med Hossam",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Facebook Notifications Anywhere extension for google chrome browser and any browser based on chromium project create By Med Hossam (c) 2015",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon48.png",
+    "128": "icon128.png",
+	"256": "icon256.png"
+  },
+  "browser_action": {
+    "default_icon": "icon48.png",
+    "default_title": "Facebook Notifs Anywhere",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [
+  	"unlimitedStorage",
+  	"storage",
+  	"*://*.facebook.com/*",
+	"notifications"
+  ],
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://s3.amazonaws.com; object-src 'self'"
+}

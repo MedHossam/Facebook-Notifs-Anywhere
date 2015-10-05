@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Facebook Notifs Anywhere</title>
+		<link rel="stylesheet" type="text/css" href="static/css/main.css" />
+	</head>
+	<body>
+		<ul id="icons">
+			<li data-target="/friends/requests/" id="friends">
+				<div class="icon_inner_wrap">
+					<img src="static/icons/friends.png" class="icon" />
+					<span>Friends</span>
+				</div>
+			</li>
+			<li data-target="/messages/?folder=unread" id="messages">
+				<div class="icon_inner_wrap">
+					<img src="static/icons/messages.png" class="icon" />
+					<span>Messages</span>
+				</div>
+			</li>
+			<li data-target="/notifications" id="notifs">
+				<div class="icon_inner_wrap">
+					<img src="static/icons/notifications.png" class="icon" />
+					<span>Notifs</span>
+				</div>
+			</li>
+		</ul>
+		
+		<div id="notifContent">
+			<div id="loading"><img src="static/icons/loader.gif" /></div>
+			<ul id="notifContentList"></ul>
+			<div id="showMore"><span>See More</span></div>
+		</div>
+		
+		<script type="text/javascript" src="static/js/jquery.js"></script>
+		<script type="text/javascript" src="static/js/require.js" data-main="static/js/main.js"></script>
+	</body>
+</html>
